@@ -8,7 +8,7 @@ const CONTACT_INFO = {
   email: "canhadhikari@gmail.com",
 
   // 2) CALENDLY LINK (full URL)
-  calendlyUrl: "",
+  calendlyUrl: "https://calendly.com/narahariadhikari/30min",
 
   // 3) WHATSAPP NUMBER (with country code, digits only, no +, no spaces, no dashes)
   whatsappNumber: "9851254887",
