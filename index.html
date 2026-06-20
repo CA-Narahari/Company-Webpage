@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Narahari Adhikari & Associates — Coming Soon</title>
+<meta name="description" content="Narahari Adhikari & Associates, Chartered Accountants. Our new website is on its way.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="ledger-bg"></div>
+
+  <main class="wrap">
+    <div class="card">
+
+      <p class="eyebrow">Chartered Accountants</p>
+
+      <h2 class="firm-name">Narahari Adhikari &amp; Associates</h2>
+
+      <div class="underline-wrap">
+        <svg viewBox="0 0 180 14">
+          <path class="underline-path" d="M2,8 Q90,2 178,8" />
+        </svg>
+      </div>
+
+      <h1 class="headline">Coming&nbsp;Soon<span class="cursor"></span></h1>
+
+      <p class="tagline">
+        We are preparing a new home for our audit, tax and advisory
+        services. In the meantime, our team remains fully reachable —
+        please get in touch through any of the options below.
+      </p>
+
+      <div class="divider">
+        <span class="rule"></span>
+        <span class="label">Get in Touch</span>
+        <span class="rule"></span>
+      </div>
+
+      <div class="contact-grid" id="contact-grid"></div>
+
+      <p class="footer-note">&copy; <span id="year"></span> Narahari Adhikari &amp; Associates. All rights reserved.</p>
+
+    </div>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="contact.js"></script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
